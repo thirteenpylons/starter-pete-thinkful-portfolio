@@ -19,6 +19,9 @@ h3 {
 /* Header */
 header {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Containers */
@@ -75,4 +78,17 @@ footer {
 /* Other page elements */
 hr {
   border: 1px solid black;
+}
+
+.about-section {
+  display: flex;
+}
+
+.about-text-alignment {
+  text-align: left;
+}
+
+.portfolio-section {
+  display: flex;
+  font-size: 14px;
 }
